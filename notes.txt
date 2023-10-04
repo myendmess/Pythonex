@@ -1,0 +1,121 @@
+conditionals --> let you decide 
+if you want to execute this 
+line of code or this one 
+other line or ecc..
+
+the symbols are
+(>, >=, <, <=, ==, !=)
+
+how do we compare
+
+2 eauls signes are equality
+
+the last symbol is not equality
+---------------------------------------
+if
+
+boolean expression
+2 possible answers yes or no
+easy decsion
+do this or not do this
+
+no parentesis
+but colan at the end of th eline :
+
+next line space indentation
+the line is executed only if my if is true
+
+the code with 3 if it's repetitive 
+how can i implemente it?
+
+--> use elif
+ask a question that takes account 
+if the previous question is
+false or true
+
+diagram changed, fast reply
+
+
+-----------------------------------------
+else
+
+any other cases realted can be managed by this expression "else"
+-----------
+or
+----------
+and
+
+if 90 <= score <= 100:
+    print("Grade: A")
+elif 80 <= score < 90:
+    print("Grade: B")    
+elif 70 <= score < 80:
+    print("Grade: C")    
+elif 60 <= score < 70:
+    print("Grade: D")
+else:
+    print("Grade: F")
+This type of code can't be used in C or any other program languages
+
+score = int(input("Score: "))
+----------------------------------------------------------------
+if score >= 90:
+    print("Grade: A")
+if score >= 80:
+    print("Grade: B")    
+if score >= 70:
+    print("Grade: C")    
+if score >= 60:
+    print("Grade: D")
+else:
+    print("Grade: F")
+
+using just if, i'll got all the grades, i have to keep things mutually exclusive
+----------------------------------------------------------------
+Parity.py program right now
+
+introduction of arithmetic symbols in python
+
++
+-
+*
+/
+%
+---------------------
+What is even numbers,
+is this number divided by 2 intirly?
+
+def main():
+    x = int(input("What's x?"))
+    if is_even(x):
+        print("Even")
+else:
+    print("Odd")
+    
+def is_even(n): <<--- you/i have to define e function like this 
+    if n % 2 == 0:    in this program
+    
+main()
+
+bool (boolean)
+True or False
+knowing that is can be just these 2 above
+i can do everything i need with the boolean 
+expression
+
+AQ
+defining question, if you define within your code 
+are you allowed to use the dot operator
+like we did in the name dot strip
+and use it like that?
+Well yes, in those functions com with strings
+
+--------------------------
+1 line collapsed is more elegant than mor lines
+return True if n% == 0 else False
+is like english
+
+even better 
+return (n % 2 == 0)
+
+match 
